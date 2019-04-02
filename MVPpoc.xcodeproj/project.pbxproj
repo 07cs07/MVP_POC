@@ -15,6 +15,9 @@
 		4912A5532253095F0060D1BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4912A5512253095F0060D1BE /* LaunchScreen.storyboard */; };
 		4912A55E2253095F0060D1BE /* MVPpocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912A55D2253095F0060D1BE /* MVPpocTests.swift */; };
 		4912A5692253095F0060D1BE /* MVPpocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912A5682253095F0060D1BE /* MVPpocUITests.swift */; };
+		4912A577225309F50060D1BE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912A576225309F50060D1BE /* Model.swift */; };
+		4912A57922530AE20060D1BE /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912A57822530AE20060D1BE /* Presenter.swift */; };
+		4912A57B225337110060D1BE /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912A57A225337110060D1BE /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		4912A5642253095F0060D1BE /* MVPpocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVPpocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4912A5682253095F0060D1BE /* MVPpocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPpocUITests.swift; sourceTree = "<group>"; };
 		4912A56A2253095F0060D1BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4912A576225309F50060D1BE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4912A57822530AE20060D1BE /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		4912A57A225337110060D1BE /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				4912A54F2253095F0060D1BE /* Assets.xcassets */,
 				4912A5512253095F0060D1BE /* LaunchScreen.storyboard */,
 				4912A5542253095F0060D1BE /* Info.plist */,
+				4912A576225309F50060D1BE /* Model.swift */,
+				4912A57822530AE20060D1BE /* Presenter.swift */,
+				4912A57A225337110060D1BE /* Observable.swift */,
 			);
 			path = MVPpoc;
 			sourceTree = "<group>";
@@ -262,6 +271,9 @@
 				4912A54B2253095E0060D1BE /* DetailViewController.swift in Sources */,
 				4912A5492253095E0060D1BE /* MasterViewController.swift in Sources */,
 				4912A5472253095E0060D1BE /* AppDelegate.swift in Sources */,
+				4912A577225309F50060D1BE /* Model.swift in Sources */,
+				4912A57B225337110060D1BE /* Observable.swift in Sources */,
+				4912A57922530AE20060D1BE /* Presenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
